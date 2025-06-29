@@ -319,6 +319,13 @@ body {
   .glitch {
     font-size: 3.2rem;
   }
+  /* cta buttons query */
+  .cta-primary,
+  .cta-secondary {
+  min-width: 120px;
+  font-size: 0.9rem;
+}
+
 }
  
 
