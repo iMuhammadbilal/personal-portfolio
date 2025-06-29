@@ -284,7 +284,7 @@ body {
   width: 100%;
 }
 
-/* Hero Media Queries */
+/* Hero Media Queries desktop */
 
 @media (max-width: 1024px) {
   .hero-container {
@@ -307,12 +307,20 @@ body {
     justify-content: center;
   }
 }
-
+/* Hero Media Queries tablet */
 @media (max-width: 768px) {
   .hero-image-container {
     display: none;
   }
 }
+
+ /* Hero Media Queries mobile */
+ @media (max-width: 480px) {
+  .glitch {
+    font-size: 3.2rem;
+  }
+}
+ 
 
 /* Projects Sections */
 
